@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/home/spencerrh/bin/upgradefull.sh
+screen -rd
