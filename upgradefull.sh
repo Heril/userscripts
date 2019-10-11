@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -z "$STY" ]; then exec screen -dm -S screenName /bin/bash "$0"; 
+if [ -z "$STY" ]; then exec screen -dm -S ArchUpgrade /bin/bash "$0";
 fi
 
 yay -Syu

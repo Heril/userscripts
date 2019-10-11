@@ -1,4 +1,4 @@
 #!/bin/sh
 
-/home/spencerrh/bin/upgradefull.sh
-screen -rd
+./upgradefull.sh
+screen -S ArchUpgrade

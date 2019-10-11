@@ -14,4 +14,4 @@ EMULTILIB=`comm -12 <(pacman -Qeq | sort) <(pacman -Slq multilib | sort) | wc -l
 AUR=`pacman -Qm | wc -l`
 EAUR=`pacman -Qem | wc -l`
 
-echo $TODAY, $NOW, $ALL, $EALL, $CORE, $ECORE, $EXTRA, $EEXTRA, $COMMUNITY, $ECOMMUNITY, $MULTILIB, $EMULTILIB, $AUR, $EAUR >> /home/spencerrh/packagedata.txt
+echo $TODAY, $NOW, $ALL, $EALL, $CORE, $ECORE, $EXTRA, $EEXTRA, $COMMUNITY, $ECOMMUNITY, $MULTILIB, $EMULTILIB, $AUR, $EAUR >> ~/packagedata.txt
