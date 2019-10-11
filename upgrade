@@ -1,4 +1,4 @@
 #!/bin/sh
 
-./upgradefull.sh
-screen -S ArchUpgrade
+upgradefull.sh
+screen -r ArchUpgrade
