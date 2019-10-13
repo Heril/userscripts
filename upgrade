@@ -2,3 +2,5 @@
 
 upgradefull.sh
 screen -r ArchUpgrade
+echo "Full upgrade complete. Enjoy the latest packages!"
+

@@ -22,4 +22,3 @@ sudo journalctl --vacuum-files=1
 
 read -p "Press [Enter] to close"
 exit
-echo "Full upgrade complete. Enjoy the latest packages!"
